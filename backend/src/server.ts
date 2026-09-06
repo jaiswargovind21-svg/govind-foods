@@ -34,6 +34,11 @@ function publicUser(user: { id: string; email: string; name: string; role: Role 
 }
 
 app.get('/health', async () => ({ status: 'ok', service: 'food-delivery-api', database: 'postgresql' }))
+app.get('/', async () => ({
+  service: 'govind-foods-api',
+  status: 'ok',
+  message: 'Govind Foods API is running. Use /health to check service health.',
+}))
 
 app.post('/api/auth/signup', async (request, reply) => {
   const input = signupSchema.parse(request.body)
