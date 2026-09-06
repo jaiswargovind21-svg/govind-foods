@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#e8784b"/>
+  <path d="M16 18h8v11h16V18h8v28h-8V36H24v10h-8V18Z" fill="#fff"/>
+  <path d="M16 18h8v11h16V18h8v28h-8V36H24v10h-8V18Z" fill="#fff" opacity=".2" transform="translate(2 2)"/>
+  <text x="32" y="57" fill="#fff" font-family="Arial,sans-serif" font-size="8" font-weight="700" text-anchor="middle">GF</text>
+</svg>
